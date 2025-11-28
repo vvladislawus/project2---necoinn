@@ -1,0 +1,21 @@
+#num{
+    background-color: #C75E90;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    display: flex;
+    height: 168px;
+    align-items: center;
+    padding-left: 38px;
+    padding-right: 24px;
+    justify-content:flex-start;
+    gap: 27px;
+}
+
+#addr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}

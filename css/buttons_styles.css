@@ -1,0 +1,168 @@
+/*кнопка переключения светлого и темного режима*/
+.toggle-switch {
+  position: relative;
+  width: 110px;
+  height: 45px;
+  background: #000000;
+  border-radius: 999px;
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 45px;
+  border-radius: 999px;
+  background: #fff;
+  transition: background 0.3s;
+  z-index: 1;
+}
+
+.toggle-switch input[type="checkbox"]:checked ~ .toggle-slider {
+  background: #ffffff;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 45px;
+  background: #C75E90;
+  border-radius: 999px;
+  z-index: 2;
+  transition: left 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-switch input[type="checkbox"]:checked ~ .toggle-button {
+  left: 50px;
+}
+
+.toggle-icons {
+  user-select: none;
+  position: relative;
+  z-index: 3;
+  width: 110px;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 12px;
+  padding: 0px;
+}
+
+.icon-img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  transition: filter 0.3s;
+}
+
+.sun {
+  filter: invert(1);
+}
+.moon {
+  filter: invert(1);
+}
+
+.toggle-switch input[type="checkbox"]:checked ~ .toggle-icons .sun {
+  filter: invert(0);
+}
+.toggle-switch input[type="checkbox"]:checked ~ .toggle-icons .moon {
+  filter: invert(0);
+}
+
+    /*длинные кнопки*/
+.btn{
+  text-align: center;
+  height: 45px;
+  border: none;
+  background-color: #C75E90;
+  border-radius: 999px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.book_btn{
+  width: 165px;
+}
+
+.purr_btn{
+  width: 203px;
+}
+
+.circle{
+  
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play_btn{
+  width: 52px;
+  height: 52px;
+  background-color: #C75E90;
+  
+  z-index: 3;
+  left: 311px;
+  top: 35px;
+}
+
+.num_btn{
+  background-color: #232323;
+  width: 78px;
+  height: 78px;
+}
+
+.email_btn{
+  background-color: #232323;
+  width: 78px;
+  height: 78px;
+}
+
+.addr_btn{
+  background-color: #C75E90;
+  width: 78px;
+  height: 78px;
+}
+
+.faq__marker{
+  width: 44px;
+  height: 44px;
+  background-color: #C75E90;
+  border-radius: 100%;
+  flex-shrink: 0;
+
+}
+
+.faq__summary{
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+#or_list{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.faq[open] .faq__marker {
+  rotate: 90deg;
+}
+
+ #our_rooms_desc{
+  padding-left: 76px;
+}
+

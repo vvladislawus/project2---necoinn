@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FBF6F8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*стилизация основных блоков*/
+header{
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 160px;
+    background: linear-gradient(225deg, #F6DDE9, #FFFEFE);
+    border-bottom-right-radius: 60px; /* Правый нижний */
+    border-bottom-left-radius: 60px;
+    anchor-name: --box;
+}
+
+address{
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position-anchor: --box;
+    top: anchor(bottom);
+    margin-top: -84px;
+    border-radius: 40px;
+    min-width: 700px;
+    height: 168px;
+    padding-left: 24px;
+    margin-bottom: 80px;
+}
+
+
+main{
+    padding-left: 64px;
+    padding-right: 64px;
+}
