@@ -166,3 +166,104 @@
   padding-left: 76px;
 }
 
+.service_btn{
+  background-color: #8E345F;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn_house{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #C75E90;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b_1{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+.b_2{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+.b_3{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+.b_4{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+.b_5{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+.b_6{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+.price_btn{
+  width: 70%;
+}
+
+.price_spec_btn{
+  background-color: #8E345F;
+  width: 70%;
+}
+
+input{
+  height: 77px;
+  border-radius: 999px;
+  border: 2px solid #b7b7b7;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-left: 42px;
+  padding-top: 10px;
+  outline: none;
+}
+
+input:focus{
+  border-color: #C75E90;
+}
+
+.form_block{
+  position: relative;
+}
+
+.label_form{
+  position: absolute;
+  left: 42px;
+  top: 11px;
+  color: #696969;
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.form_btn{
+  height: 56px;
+  width: 30%;
+}
+
+/* .dt::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: block; /* оставляем область клика */
+ 

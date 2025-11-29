@@ -86,3 +86,75 @@ address p{
 #ss_h{
   color: #fff;
 }
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+h4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pr_us_h{
+  color: #C75E90;
+  letter-spacing: 5px;
+}
+
+#price_usual_block
+{
+  display: flex;
+  align-items: baseline;
+}
+
+#pr_us_list{
+  margin-bottom: 45px;
+  font-size: 14px;
+}
+
+#price_special_block{
+  color: #fff;
+  display: flex;
+  align-items: baseline;
+}
+
+#price_special_h{
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#pr_special_list{
+  margin-bottom: 90px;
+}
+
+#pr_sp_h{
+  letter-spacing: 5px;
+}
+
+#pricing_text{
+  max-width: 750px;
+  text-align: center;
+  color: #232323;
+  margin-bottom: 50px;
+}
+
+#fb_text{
+  max-width: 870px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+form p{
+  text-align: center;
+  max-width: 870px;
+  font-size: 14px;
+}
